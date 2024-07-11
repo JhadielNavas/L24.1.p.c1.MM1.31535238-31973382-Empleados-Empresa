@@ -15,4 +15,4 @@ empresa.procesarEmpleados(emple4);
 let salida = document.getElementById("salida");
 
 salida.innerHTML += "<br> La cantidad de hombres que trabajan en la empresa: " +empresa.reporteCantidadH();
-salida.innerHTML += "<br> El porcentaje de las mujeres: " +empresa.calcularPorcM();"%"
+salida.innerHTML += "<br> El porcentaje de las mujeres: " +empresa.calcularPorcM();

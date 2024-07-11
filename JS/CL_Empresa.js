@@ -22,7 +22,7 @@ export default class CL_Empresa {
     }
 
     calcularPorcM(){
-        return (this.cont_M * 100) / (this.cont_M + this.cont_H).toFixed(2);
+        return (this.cont_M * 100) / (this.cont_M + this.cont_H).toFixed(2)+"%";
     }
 
     reporteCantidadH(){
